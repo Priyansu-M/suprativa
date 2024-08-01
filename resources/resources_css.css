@@ -1,0 +1,36 @@
+.page{
+    margin-top: 20vh;
+}
+#pub_container{
+    display: grid;
+    position: relative;
+    left: 10vw;
+    width: 78vw;
+    column-gap: 1vw;
+    row-gap: 2vw;
+    grid-template-columns: auto auto auto auto;
+    padding: 1vw;
+    
+}
+.pub{
+    width: 18vw;
+    height: 25vw;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 1vw;
+    box-shadow: 2px 2px 10px #1a4d2e;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.pub:hover{
+    scale: 0.9;
+}
+#pub_container>div>h2{
+    font-size: 1.2vw;
+    background-color: #1a4d2e;
+    border-radius: 1vw;
+    padding: 1vw;
+    color: #F5EFE6;
+    font-family: source_serif_pro;
+    font-weight: lighter;
+}

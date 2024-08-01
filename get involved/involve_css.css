@@ -1,0 +1,28 @@
+#donate{
+    position: relative;
+    top: 10vh;
+    height: 60vh;
+  }
+.btn{
+    text-align: center;
+    position: relative;
+    left: 10vw;
+    bottom: 2vh;
+}
+.btn button{
+    background-color: #fff;
+    color: #1a4d2e;
+    border: 2px solid #1a4d2e;
+    border-radius: 100;
+    padding: 1vw;
+    font-size: 1.2vw;
+    font-family: source_serif_pro;
+}
+.btn button:hover{
+    background-color: #1a4d2e;
+    color: #E8DFCA;
+}
+#partners{
+    position: relative;
+    top: -10vh;
+}

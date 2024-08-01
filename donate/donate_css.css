@@ -1,0 +1,32 @@
+.page{
+    margin-top: 20vh;
+}
+.pay img{
+    height: 30vh;
+}
+.pay{
+    display: flex;
+    position: relative;
+    left: 10vw;
+    width: 74vw;
+    padding: 2vw;
+    margin-bottom: 20vh;
+    justify-content: center;
+    border-radius: 2vw;
+}
+.pay_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pay_text p{
+    width: 30vw;
+    border: 2px solid #1a4d2e;
+    padding: 2vw;
+    border-radius: 2vw;
+}
+.pay_text .h2_left{
+    position: relative;
+    left: 0;
+    font-size: 1.2vw;
+}

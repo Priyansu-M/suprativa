@@ -1,0 +1,35 @@
+.page{
+    margin-top: 20vh;
+}
+
+#photo_gallery{
+    display: grid;
+    position: relative;
+    left: 10vw;
+    width: 78vw;
+    column-gap: 1vw;
+    row-gap: 2vw;
+    grid-template-columns: auto auto auto;
+    padding: 1vw;
+    
+}
+.photos img{
+    width: 24vw;
+    height: 20vw;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 1vw;
+    box-shadow: 2px 2px 10px #1a4d2e;
+}
+.photos{
+    width: 25vw;
+}
+#photo_gallery>div>h2{
+    font-size: 1.2vw;
+    background-color: #1a4d2e;
+    border-radius: 1vw;
+    padding: 1vw;
+    color: #F5EFE6;
+    font-family: source_serif_pro;
+    font-weight: lighter;
+}

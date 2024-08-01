@@ -1,0 +1,5 @@
+#cover_img{
+    transform: scaleX(-1);
+    object-fit: contain;
+    
+}
